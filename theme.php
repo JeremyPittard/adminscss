@@ -21,3 +21,10 @@ function my_login_css() {
 }
 
 add_action('login_head', 'my_login_css');
+
+//admin footer message
+function my_crazy_admin_footer() {
+    echo '<p>This theme was made by <a href="http://example.com">Ms. WordPress</a>.</p>';
+ }
+ 
+ add_action('admin_footer', 'my_crazy_admin_footer');
