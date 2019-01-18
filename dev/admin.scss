@@ -1,0 +1,33 @@
+// The main title of the admin panel. Used to display the name of the blog and a link to View Site.
+#wphead {
+}
+
+// The main level navigation bar, for links: Dashboard, Write, Manage, etc.
+#adminmenu {
+  ul {
+  }
+}
+
+// The sub level navigation bar, for links (example: under Manage: Posts, Pages, Categories).
+#adminmenu2 {
+  ul {
+  }
+}
+
+// The basic wrapper for all content in the admin panel, set in a <div>.
+.wrap {
+}
+
+// The sidebar on the Dashboard displaying Latest Activity and Blog Stats.
+#zeitgeist {
+}
+
+// The footer at the bottom, with Wordpress logo, version number, and help links.
+#footer {
+}
+
+// Individual Page headers for the various subpanels, like General Options.
+.wrap {
+  h2 {
+  }
+}
